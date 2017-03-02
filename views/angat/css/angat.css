@@ -1,0 +1,465 @@
+/*NAVIGATION*/
+/*NAVBAR-TRANSPARENT*/
+.navbar-transparent {
+  transition: .5s; }
+  .navbar-transparent .navbar-brand {
+    color: #fff;
+    transition: .5s; }
+  .navbar-transparent .navbar-brand::after {
+    content: ' HOB';
+    color: #1bac91; }
+  .navbar-transparent .navbar-toggle {
+    border: 1px solid #1bac91;
+    color: #1bac91; }
+
+.navbar-transparent li > a {
+  color: #1bac91; }
+
+.navbar-transparent li > a:hover,
+.navbar-transparent li > a:focus {
+  background: transparent;
+  border-bottom: 1px solid #fff; }
+
+/*NAVBAR-TRANSPARENT END*/
+/*NAVBAR-DEFAULT*/
+.navbar-default {
+  border: none;
+  background: #000;
+  transition: .5s; }
+  .navbar-default .navbar-brand {
+    color: #fff;
+    line-height: 30px;
+    transition: .5s; }
+  .navbar-default .navbar-brand::after {
+    content: ' HOB';
+    color: #1bac91; }
+  .navbar-default .navbar-nav > li > a {
+    color: #fff; }
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus {
+    background: transparent;
+    color: #1bac91;
+    border-bottom: 1px solid #1bac91; }
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:focus,
+  .navbar-default .navbar-nav > .active > a:hover {
+    background: transparent;
+    color: #1bac91;
+    border-bottom: 1px solid #1bac91; }
+  .navbar-default .navbar-toggle {
+    color: #1bac91;
+    border: 1px solid #1bac91; }
+
+/*NAVBAR-DEFAULT END*/
+/*NAVIGATION END*/
+/*HEADER*/
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../img/Balagtas-municipal-1.jpg) no-repeat center center;
+  background-size: 100%;
+  height: 90vh; }
+  .header h1 {
+    margin: 0;
+    text-align: center;
+    padding-top: 3em;
+    color: #fff;
+    font-size: 4em; }
+  .header p {
+    padding-top: 1em;
+    text-align: center;
+    color: #fff;
+    font-size: 3em; }
+
+/*HEADER END*/
+/*INFO*/
+.info {
+  background: #1bac91; }
+  .info .infos {
+    margin-top: 10em;
+    margin-bottom: 10em; }
+    .info .infos img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width: 400px;
+      height: auto; }
+    .info .infos p {
+      padding-top: 120px;
+      padding-left: 100px;
+      font-size: 2em;
+      color: #fff; }
+    .info .infos i {
+      color: #eee;
+      opacity: 0.6; }
+    .info .infos .reference {
+      color: #555;
+      font-size: 1em; }
+
+/*INFO END*/
+/*KNOWNPERSON*/
+.knownperson {
+  background: #b2d0c6; }
+  .knownperson h1 {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    text-align: center; }
+  .knownperson .knownpersons {
+    margin-bottom: 13em; }
+    .knownperson .knownpersons p {
+      font-size: 1.3em;
+      color: #444; }
+
+/*KNOWNPERSON END*/
+/*ACCOMODATION*/
+.accomodation {
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../img/Balagtas-bahaynatisa1.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; }
+  .accomodation h1 {
+    margin-top: 2em;
+    text-align: center; }
+  .accomodation .accomodations {
+    margin-top: 12.8em;
+    margin-bottom: 1em; }
+    .accomodation .accomodations h2 {
+      margin-top: 0;
+      font-size: 3em; }
+    .accomodation .accomodations i {
+      padding-top: 1em;
+      position: absolute;
+      font-size: 2em; }
+    .accomodation .accomodations p {
+      margin-top: 2em;
+      font-size: 1.5em;
+      padding-left: 2em; }
+  .accomodation .accomodate {
+    margin-bottom: 15em; }
+    .accomodation .accomodate a {
+      margin-top: 3em;
+      color: #fff;
+      font-size: 2em; }
+    .accomodation .accomodate .prev,
+    .accomodation .accomodate .next {
+      position: absolute;
+      margin-top: 0; }
+    .accomodation .accomodate .next {
+      margin-left: 30em; }
+    .accomodation .accomodate .prev {
+      margin-left: 8em; }
+
+/*ACCOMODATION END*/
+/*LOCALPRODUCT*/
+.localproduct {
+  text-align: center;
+  background: #b2d0c6; }
+  .localproduct h1 {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    color: #444; }
+  .localproduct .localproducts img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 350px;
+    height: 350px; }
+  .localproduct .localproducts .localprice {
+    background: #1bac91;
+    width: 350px;
+    margin-left: 95px;
+    margin-top: -10px;
+    height: 3em;
+    margin-bottom: 7em; }
+    .localproduct .localproducts .localprice .text-left,
+    .localproduct .localproducts .localprice .text-right {
+      color: #fff; }
+    .localproduct .localproducts .localprice .text-left {
+      padding-top: 1em;
+      padding-left: 10px; }
+    .localproduct .localproducts .localprice .text-right {
+      position: inherit;
+      padding-right: 10px;
+      margin-top: -25px; }
+
+/*LOCALPRODUCT END*/
+/*FACTS*/
+.facts {
+  background: url(../../../img/bg-3.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center; }
+  .facts p {
+    margin-top: 7em;
+    font-size: 2em;
+    color: #fff; }
+  .facts .rocket {
+    margin-top: 0;
+    font-size: 10em; }
+
+/*FACTS END*/
+/*FESTIVALS*/
+.festival {
+  background: #b2d0c6; }
+  .festival .festivals {
+    margin-top: 10em;
+    margin-bottom: 10em; }
+
+/*FESTIVALS END*/
+/*FOOTER*/
+footer {
+  background: #2b2b2b;
+  color: #b2d0c6; }
+  footer p {
+    margin-top: 3em;
+    margin-bottom: 3em; }
+
+/*FOOTER END*/
+/*OWL CAROUSEL*/
+#owl-demo .item {
+  margin: 3px; }
+  #owl-demo .item img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto; }
+
+#owl-demo2 .item {
+  margin: 3px; }
+  #owl-demo2 .item img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto; }
+
+#owl-demo3 .item {
+  margin: 3px; }
+  #owl-demo3 .item img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto; }
+
+#owl-demo4 .item {
+  margin: 3px; }
+  #owl-demo4 .item img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto; }
+
+/*OWL CAROUSEL END*/
+/*SCROLL-ANIMATION-EFFECT*/
+.hid_den {
+  opacity: 0; }
+
+.visible {
+  opacity: 1; }
+
+/*SCROLL-ANIMATION-EFFECT END*/
+/*MOBILE*/
+@media (max-width: 414px) {
+  /*HEADER*/
+  .header {
+    height: 31vh; }
+    .header h1 {
+      padding-top: 2em;
+      font-size: 2em; }
+    .header p {
+      padding-top: 2em;
+      font-size: 1em;
+      padding-bottom: 2em; }
+
+  /*HEADER END*/
+  /*INFO*/
+  .info .infos {
+    margin-top: 4em;
+    margin-bottom: 4em; }
+    .info .infos p {
+      padding-left: 0;
+      padding-top: 0;
+      font-size: .8em; }
+    .info .infos .reference {
+      float: none !important;
+      text-align: center; }
+
+  /*INFO END*/
+  /*KNOWNPERSON*/
+  .knownperson h1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 2em; }
+  .knownperson .knownpersons {
+    margin-top: 4em;
+    margin-bottom: 4em; }
+    .knownperson .knownpersons h2 {
+      margin-top: 1em;
+      font-size: .7em;
+      text-align: center; }
+    .knownperson .knownpersons p {
+      font-size: .6em; }
+    .knownperson .knownpersons .btn {
+      width: 8em;
+      height: 4em;
+      font-size: .5em;
+      padding-left: .8em;
+      margin-left: auto;
+      margin-right: auto;
+      display: block; }
+
+  /*KNOWNPERSON END*/
+  /*ACCOMODATION*/
+  .accomodation h1 {
+    margin-top: 2em;
+    font-size: 1em; }
+  .accomodation .accomodations {
+    margin-top: 2em; }
+    .accomodation .accomodations p {
+      font-size: .6em; }
+    .accomodation .accomodations h2 {
+      padding-top: 0;
+      font-size: 1em; }
+    .accomodation .accomodations i {
+      padding-top: .8em;
+      font-size: .6em;
+      position: absolute; }
+  .accomodation .accomodate {
+    margin-bottom: 5em; }
+    .accomodation .accomodate .next {
+      margin-left: 5em; }
+    .accomodation .accomodate .prev {
+      margin-left: 3em; }
+
+  /*ACCOMODATION END*/
+  /*LOCALPRODUCT*/
+  .localproduct h1 {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em; }
+  .localproduct .localproducts {
+    margin-bottom: -2em; }
+    .localproduct .localproducts img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width: 150px;
+      height: 150px; }
+    .localproduct .localproducts h5 {
+      font-size: .5em; }
+    .localproduct .localproducts .localprice {
+      margin-left: 0;
+      width: 100%;
+      height: 1.5em; }
+      .localproduct .localproducts .localprice .text-right {
+        position: inherit;
+        padding-right: 10px;
+        margin-top: -2.3em; }
+
+  /*LOCALPRODUCT END*/
+  /*FACTS*/
+  .facts {
+    height: 50vh; }
+    .facts p {
+      font-size: 1em; }
+    .facts .rocket {
+      font-size: 3em; }
+
+  /*FACTS END*/
+  /*FESTIVAL*/
+  .festival h1 {
+    font-size: 1.2em;
+    margin-top: 1em;
+    text-align: center; }
+  .festival .festivals {
+    margin-top: 2em;
+    margin-bottom: 2em; }
+    .festival .festivals h2 {
+      margin-top: 0;
+      font-size: 1em; }
+    .festival .festivals p {
+      font-size: .7em; }
+    .festival .festivals .btn {
+      width: 8em;
+      height: 4em;
+      font-size: .5em;
+      padding-left: .8em;
+      margin-left: auto;
+      margin-right: auto;
+      display: block; }
+
+  /*FESTIVAL END*/
+  /*OWL-CAROUSEL*/
+  #owl-demo .item img,
+  #owl-demo2 .item img,
+  #owl-demo3 .item img,
+  #owl-demo4 .item img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  /*OWL-CAROUSEL END*/ }
+/*MOBILE END*/
+/*MOBILE LANDSCAPE*/
+@media (min-width: 415px) and (max-width: 768px) {
+  /*HEADER*/
+  .header h1 {
+    font-size: 2em; }
+  .header p {
+    font-size: 1.3em; }
+
+  /*HEADER END*/
+  /*INFO*/
+  .info .infos p {
+    padding-top: 0;
+    padding-left: 0;
+    font-size: 1.4em; }
+  .info .infos .reference {
+    float: none !important;
+    text-align: center; }
+
+  /*INFO END*/
+  /*KNOWNPERSON*/
+  .knownperson h1 {
+    text-align: center; }
+
+  /*KNOWNPERSON END*/
+  /*ACCOMODATION*/
+  .accomodation h1 {
+    font-size: 2em;
+    margin-top: 3em; }
+  .accomodation .accomodations {
+    margin-top: 5em; }
+    .accomodation .accomodations p {
+      font-size: 1em; }
+    .accomodation .accomodations h2 {
+      font-size: 1.5em;
+      padding-top: 0; }
+    .accomodation .accomodations i {
+      padding-top: 1em;
+      font-size: 1.3em;
+      position: absolute; }
+  .accomodation .accomodate {
+    margin-bottom: 10em; }
+    .accomodation .accomodate .prev,
+    .accomodation .accomodate .next {
+      position: absolute;
+      margin-top: 0; }
+    .accomodation .accomodate .next {
+      margin-left: 10em; }
+    .accomodation .accomodate .prev {
+      margin-left: 8em; }
+
+  /*ACCOMODATION END*/
+  /*LOCALPRODUCT*/
+  .localprice {
+    margin-left: auto;
+    margin-right: auto; }
+
+  /*LOCALPRODUCT*/ }
+/*MOBILE LANDSCAPE END*/
+/*# sourceMappingURL=balagtas.css.map */

@@ -1,0 +1,30 @@
+body{
+  background: #f2f2f2;
+}
+
+
+svg{ height: 45vw; width: 100%}
+path{ fill: #d3d3d3; transition: .6s fill;}
+path:hover {fill: #000;}
+.map{
+  padding-top: 30px;
+}
+h1{
+  position: absolute;
+  font-size: 5em;
+  padding-left: 20%;
+  padding-top: 10%;
+  font-weight: bold;
+}
+h1::after{
+  content: 'HOB';
+  color: darkturquoise;
+}
+a{
+  font-size: 2em;
+}
+@media(max-width: 412px){
+  .map{
+    padding-top: 190px;
+  }
+}

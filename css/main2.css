@@ -1,0 +1,127 @@
+@font-face {
+  font-family: antic;
+  src: url("../fonts/Antic-Regular.ttf"); }
+@font-face {
+  font-family: arima;
+  src: url("../fonts/ArimaMadurai-Regular.ttf"); }
+@font-face {
+  font-family: kaushan;
+  src: url("../fonts/KaushanScript-Regular.otf"); }
+@font-face {
+  font-family: poiret;
+  src: url("../fonts/PoiretOne-Regular.ttf"); }
+/*HEADER*/
+.header {
+  background: #b2d0c6;
+  text-align: center; }
+  .header img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block; }
+  .header h1 {
+    font-family: arima;
+    font-size: 5em;
+    text-align: center; }
+  .header h2 {
+    font-family: antic;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1em; }
+  .header i {
+    font-size: 2em;
+    color: #000;
+    margin-bottom: 2em; }
+  .header .line {
+    border-bottom: .5em solid #358e8d;
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto; }
+
+/*HEADER END*/
+/*TITLE*/
+.title {
+  background: #53acab; }
+  .title h1 {
+    color: #fff;
+    font-family: arima;
+    font-size: 3em; }
+
+/*TITLE END*/
+/*CAROUSEL*/
+.carousel img {
+  width: 100%;
+  height: auto; }
+.carousel .carousel-caption h1 {
+  font-size: 10em;
+  font-family: kaushan;
+  margin-bottom: 1em; }
+.carousel .carousel-caption p {
+  font-size: 3em;
+  font-family: poiret;
+  margin-bottom: 2em; }
+.carousel .carousel-caption .btn-default {
+  background: transparent;
+  font-size: 1.5em; }
+.carousel .carousel-caption a {
+  font-family: poiret;
+  color: #fff;
+  decoration: none; }
+
+/*CAROUSEL END*/
+/*FOOTER*/
+.footer {
+  background: #53acab;
+  text-align: center;
+  color: #fff; }
+  .footer h1 {
+    font-family: poiret;
+    margin-top: 3em; }
+  .footer i {
+    color: #000;
+    font-size: 2em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em; }
+
+/*FOOTER END*/
+/*MOBILE*/
+@media (max-width: 414px) {
+  .carousel .carousel-caption h1 {
+    font-size: 2em;
+    margin-bottom: .5em; }
+  .carousel .carousel-caption p {
+    font-size: 1em;
+    margin-bottom: .5em; }
+  .carousel .carousel-caption .donremediosh {
+    font-size: 1.5em; }
+  .carousel .carousel-caption .donremediosp {
+    font-size: .8em;
+    margin-bottom: 1em; }
+  .carousel .carousel-caption .btn-default {
+    font-size: .8em;
+    margin-bottom: -1em; }
+
+  /*TITLE*/
+  .title {
+    background: #53acab; }
+    .title h1 {
+      color: #fff;
+      font-family: arima;
+      font-size: 1.5em; }
+
+  /*TITLE END*/ }
+/*MOBILE END*/
+/*MOBILE LANDSCAPE*/
+@media (min-width: 415px) and (max-width: 768px) {
+  .carousel .carousel-caption h1 {
+    font-size: 4em; }
+  .carousel .carousel-caption p {
+    font-size: 1.5em;
+    margin-bottom: 1em; }
+  .carousel .carousel-caption .donremediosh {
+    font-size: 3em; }
+  .carousel .carousel-caption .donremediosp {
+    font-size: 1em; } }
+/*MOBILE LANDSCAPE*/
+
+/*# sourceMappingURL=main2.css.map */

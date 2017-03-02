@@ -1,0 +1,749 @@
+@font-face {
+  font-family: antic;
+  src: url("../../../fonts/Antic-Regular.ttf"); }
+@font-face {
+  font-family: arima;
+  src: url("../../../fonts/ArimaMadurai-Regular.ttf"); }
+@font-face {
+  font-family: kaushan;
+  src: url("../../../fonts/KaushanScript-Regular.otf"); }
+@font-face {
+  font-family: poiret;
+  src: url("../../../fonts/PoiretOne-Regular.ttf"); }
+/*NAVIGATION*/
+/*NAVBAR-TRANSPARENT*/
+.navbar-transparent {
+  transition: .5s; }
+  .navbar-transparent .navbar-brand {
+    color: #fff;
+    transition: .5s; }
+  .navbar-transparent .navbar-brand::after {
+    content: ' HOB';
+    color: #1bac91; }
+  .navbar-transparent .navbar-toggle {
+    border: 1px solid #1bac91;
+    color: #1bac91; }
+
+.navbar-transparent li > a {
+  color: #1bac91; }
+
+.navbar-transparent li > a:hover,
+.navbar-transparent li > a:focus {
+  background: transparent;
+  border-bottom: 1px solid #1bac91; }
+
+/*NAVBAR-TRANSPARENT END*/
+/*NAVBAR-DEFAULT*/
+.navbar-default {
+  border: none;
+  background: #000;
+  transition: .5s; }
+  .navbar-default .navbar-brand {
+    color: #fff;
+    line-height: 30px;
+    transition: .5s; }
+  .navbar-default .navbar-brand::after {
+    content: ' HOB';
+    color: #1bac91; }
+  .navbar-default .navbar-nav > li > a {
+    font-size: 1em;
+    color: #fff; }
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus {
+    background: transparent;
+    color: #1bac91;
+    border-bottom: 1px solid #1bac91; }
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:focus,
+  .navbar-default .navbar-nav > .active > a:hover {
+    background: transparent;
+    color: #1bac91;
+    border-bottom: 1px solid #1bac91; }
+  .navbar-default .navbar-toggle {
+    color: #1bac91;
+    border: 1px solid #1bac91; }
+
+/*NAVBAR-DEFAULT END*/
+/*NAVIGATION END*/
+/*HEADER*/
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../img/views/drt/DonaRemediosTrinidad-municipal1.jpg) no-repeat center center;
+  background-size: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 0; }
+  .header h1 {
+    font-family: kaushan;
+    font-size: 8em;
+    margin: 0;
+    padding-top: 1.5em;
+    color: #fff; }
+  .header p {
+    font-family: arima;
+    font-size: 2.5em;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    color: #fff;
+    margin-bottom: 0; }
+
+/*HEADER END*/
+/*TITLE*/
+.title {
+  background: #95adb1; }
+  .title h1 {
+    font-family: arima;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+
+/*HISTORY TITLE END*/
+/*INFO*/
+.info {
+  background: #b2d0c6;
+  text-align: center; }
+  .info .infos {
+    margin-top: 10em;
+    margin-bottom: 10em; }
+    .info .infos img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width: 100%;
+      height: auto; }
+    .info .infos p {
+      padding-top: 2em;
+      font-family: antic;
+      font-size: 1.8em;
+      color: #000; }
+    .info .infos i {
+      color: #000;
+      font-size: .4em;
+      position: relative; }
+    .info .infos .btn-primary {
+      margin-top: 2em; }
+      .info .infos .btn-primary a {
+        color: #fff;
+        font-family: antic;
+        text-decoration: none; }
+    .info .infos .left {
+      right: 42em;
+      top: 12em; }
+    .info .infos .right {
+      left: 47em;
+      top: -12em; }
+
+/*INFO END*/
+/*INFO-BALAGTAS*/
+.info-balagtas {
+  background: #53acab;
+  text-align: center; }
+  .info-balagtas i {
+    font-size: 13em;
+    padding-top: .5em; }
+  .info-balagtas p {
+    font-size: 2.4em;
+    font-family: antic;
+    padding-bottom: 3em; }
+  .info-balagtas .post2 {
+    animation-delay: .1s; }
+  .info-balagtas .post3 {
+    animation-delay: .2s; }
+  .info-balagtas .post4 {
+    animation-delay: .3s; }
+
+/*INFO-BALAGTAS END*/
+/*CAROUSEL FRANCISCO BALTAZAR MUSEUM AND FESITVAL*/
+.carousel img {
+  width: 100%;
+  height: auto; }
+.carousel .carousel-caption h1 {
+  font-size: 5em;
+  font-family: kaushan;
+  margin-bottom: 1em; }
+.carousel .carousel-caption p {
+  font-size: 2em;
+  font-family: antic;
+  margin-bottom: 5em; }
+.carousel .carousel-caption .btn-default {
+  background: transparent;
+  font-size: 1.5em; }
+.carousel .carousel-caption a {
+  font-family: poiret;
+  color: #fff;
+  text-decoration: none; }
+.carousel .carousel-caption .festival {
+  background: transparent;
+  font-size: 10em;
+  padding-bottom: 1em; }
+
+/*CAROUSEL FRANCISCO BALTAZAR MUSEUM AND FESITVAL END*/
+/*HEROES AND PATRIOTS*/
+.heroes-patriots {
+  background: #b2d0c6;
+  text-align: center; }
+  .heroes-patriots img {
+    margin-top: 10em;
+    margin-left: auto;
+    margin-right: auto; }
+  .heroes-patriots h1 {
+    font-size: 5em;
+    font-family: kaushan;
+    padding-top: 1em; }
+  .heroes-patriots p {
+    font-size: 1.5em;
+    font-family: antic;
+    padding-top: 1em;
+    padding-bottom: 6em; }
+
+/*HEROES AND PATRIOTS END*/
+/*LOCALPRODUCT*/
+.localproduct {
+  text-align: center;
+  background: #b2d0c6; }
+  .localproduct .localproducts {
+    margin-top: 10em;
+    margin-bottom: 10em; }
+    .localproduct .localproducts img {
+      border-top-left-radius: .5em;
+	  border-top-right-radius: .5em;
+	  margin-left: auto;
+      margin-right: auto;
+      display: block; }
+    .localproduct .localproducts .localprice {
+      background: #1bac91;
+      width: 400px;
+      margin-left: 70px;
+      margin-top: -10px;
+      height: 3em;
+	  border-bottom-left-radius: .5em;
+	  border-bottom-right-radius: .5em;}
+      .localproduct .localproducts .localprice .text-left,
+      .localproduct .localproducts .localprice .text-right {
+        color: #fff; }
+      .localproduct .localproducts .localprice .text-left {
+        padding-top: 1em;
+        padding-left: 10px; }
+      .localproduct .localproducts .localprice .text-right {
+        position: inherit;
+        padding-right: 10px;
+        margin-top: -25px; }
+
+/*LOCALPRODUCT END*/
+/*FACTS*/
+.facts {
+  background: url(../../../img/views/balagtas/bg-3.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center; }
+  .facts p {
+    margin-top: 7em;
+    font-size: 2em;
+    color: #fff; }
+  .facts .rocket {
+    margin-top: 0;
+    font-size: 10em; }
+
+/*FACTS END*/
+/*ACCOMODATION*/
+.accomodation {
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../img//views/calumpit/resort/calumpit-cover.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; }
+  .accomodation h1 {
+    margin-top: 2em;
+    text-align: center; }
+  .accomodation .accomodations {
+    margin-top: 12.8em;
+    margin-bottom: 1em; }
+    .accomodation .accomodations h2 {
+      margin-top: 0;
+      font-size: 3em; }
+    .accomodation .accomodations i {
+      padding-top: 1em;
+      position: absolute;
+      font-size: 2em; }
+    .accomodation .accomodations p {
+      margin-top: 2em;
+      font-size: 1.5em;
+      padding-left: 2em; }
+  .accomodation .accomodate {
+    margin-bottom: 15em; }
+    .accomodation .accomodate a {
+      margin-top: 3em;
+      color: #fff;
+      font-size: 2em; }
+    .accomodation .accomodate .prev,
+    .accomodation .accomodate .next {
+      position: absolute;
+      margin-top: 0; }
+    .accomodation .accomodate .next {
+      margin-left: 30em; }
+    .accomodation .accomodate .prev {
+      margin-left: 8em; }
+
+/*ACCOMODATION END*/
+/*FOOTER*/
+.footer {
+  background: #53acab;
+  text-align: center;
+  color: #fff; }
+  .footer h1 {
+    font-family: poiret;
+    margin-top: 3em; }
+  .footer i {
+    color: #000;
+    font-size: 2em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em; }
+
+/*FOOTER END*/
+/*OWL CAROUSEL*/
+#owl-demo .item {
+  margin: 3px; }
+  #owl-demo .item img {
+    display: block;
+    width: 350px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto; }
+
+#owl-demo2 .item {
+  margin: 3px; }
+  #owl-demo2 .item img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto; }
+
+#owl-demo3 .item {
+  margin: 3px; }
+  #owl-demo3 .item img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto; }
+
+#owl-demo4 .item {
+  margin: 3px; }
+  #owl-demo4 .item img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto; }
+
+/*OWL CAROUSEL END*/
+/*SCROLL-ANIMATION-EFFECT*/
+.hid_den {
+  opacity: 0; }
+
+.visible {
+  opacity: 1; }
+
+/*SCROLL-ANIMATION-EFFECT END*/
+/*MOBILE*/
+@media (max-width: 414px) {
+  /*NAVIGATION*/
+  /*NAVBAR-TRANSPARENT*/
+  .navbar-transparent li > a {
+    background: #444; }
+
+  /*NAVBAR-TRANSPARENT END*/
+  /*NAVIGATION END*/
+  /*HEADER*/
+  .header {
+    height: 31vh; }
+    .header h1 {
+      padding-top: 2em;
+      font-size: 2em; }
+    .header p {
+      padding-top: .3em;
+      font-size: 1em;
+      padding-bottom: 0; }
+
+  /*HEADER END*/
+  /*TITLE*/
+  .title h1 {
+    font-size: 2em;
+    padding-top: 0;
+    padding-bottom: 0; }
+
+  /*TITLE END*/
+  /*INFO*/
+  .info .infos {
+    margin-top: 1em;
+    margin-bottom: 1em; }
+    .info .infos p {
+      padding-top: 1em;
+      font-size: .8em; }
+    .info .infos i {
+      color: #000;
+      font-size: .4em;
+      position: relative; }
+    .info .infos .left {
+      right: 19em;
+      top: 3.8em; }
+    .info .infos .right {
+      left: 18em;
+      top: -6em; }
+
+  /*INFO END*/
+  /*INFO-BALAGTAS*/
+  .info-balagtas i {
+    font-size: 3em;
+    padding-top: 1em; }
+  .info-balagtas p {
+    font-size: .6em; }
+
+  /*INFO-BALAGTAS END*/
+  /*CAROUSEL FRANCISCO BALTAZAR MUSEUM AND FESITVAL*/
+  .carousel .carousel-caption {
+    left: 0;
+    width: 100%; }
+    .carousel .carousel-caption h1 {
+      font-size: 1.5em;
+      font-family: kaushan;
+      margin-bottom: .5em; }
+    .carousel .carousel-caption p {
+      font-size: .8em;
+      font-family: antic;
+      margin-bottom: 0; }
+    .carousel .carousel-caption .btn-default {
+      background: transparent;
+      font-size: .7em;
+      margin-bottom: -5em; }
+    .carousel .carousel-caption a {
+      font-family: poiret;
+      color: #fff;
+      text-decoration: none; }
+    .carousel .carousel-caption .festival {
+      background: transparent;
+      font-size: 2em;
+      padding-bottom: 0; }
+
+  /*CAROUSEL FRANCISCO BALTAZAR MUSEUM AND FESITVAL END*/
+  /*HEROES AND PATRIOTS*/
+  .heroes-patriots img {
+    margin-top: 4em; }
+  .heroes-patriots h1 {
+    font-size: 2em; }
+  .heroes-patriots p {
+    font-size: 1em; }
+
+  /*HEROES AND PATRIOTS END*/
+  /*LOCALPRODUCT*/
+  .localproduct .localproducts {
+    margin-top: 4em;
+    margin-bottom: 4em; }
+    .localproduct .localproducts img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width: 100%;
+      height: auto; }
+    .localproduct .localproducts h5 {
+      font-size: .5em; }
+    .localproduct .localproducts .localprice {
+      margin-left: 0;
+      width: 100%;
+      height: 1.5em; }
+      .localproduct .localproducts .localprice .text-right {
+        position: inherit;
+        padding-right: 10px;
+        margin-top: -2.3em; }
+
+  /*LOCALPRODUCT END*/
+  /*FACTS*/
+  .facts {
+    height: 50vh; }
+    .facts p {
+      font-size: 1em; }
+    .facts .rocket {
+      font-size: 3em; }
+
+  /*FACTS END*/
+  /*ACCOMODATION*/
+  .accomodation h1 {
+    margin-top: 2em;
+    font-size: 1em; }
+  .accomodation .accomodations {
+    margin-top: 2em; }
+    .accomodation .accomodations p {
+      font-size: .6em; }
+    .accomodation .accomodations h2 {
+      padding-top: 0;
+      font-size: 1em; }
+    .accomodation .accomodations i {
+      padding-top: .8em;
+      font-size: .6em;
+      position: absolute; }
+  .accomodation .accomodate {
+    margin-bottom: 5em; }
+    .accomodation .accomodate .next {
+      margin-left: 5em; }
+    .accomodation .accomodate .prev {
+      margin-left: 3em; }
+
+  /*ACCOMODATION END*/
+  /*FOOTER*/
+  .footer h1 {
+    font-family: poiret;
+    margin-top: 3em;
+    font-size: 1em; }
+  .footer i {
+    color: #000;
+    font-size: 2em;
+    margin-bottom: 1em;
+    margin-left: .5em;
+    margin-right: .5em; }
+
+  /*FOOTER END*/
+  /*OWL-CAROUSEL*/
+  #owl-demo .item img,
+  #owl-demo2 .item img,
+  #owl-demo3 .item img,
+  #owl-demo4 .item img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  /*OWL-CAROUSEL END*/ }
+/*MOBILE END*/
+/*MOBILE LANDSCAPE*/
+@media (min-width: 415px) and (max-width: 767px) {
+  /*NAVIGATION*/
+  /*NAVBAR-TRANSPARENT*/
+  .navbar-transparent li > a {
+    background: #444; }
+
+  /*NAVBAR-TRANSPARENT END*/
+  /*NAVIGATION END*/
+  /*HEADER*/
+  .header {
+    width: 100%;
+    height: auto; }
+    .header h1 {
+      font-size: 3em;
+      padding-top: 2.5em; }
+    .header p {
+      font-size: 1.3em;
+      padding-top: 1em; }
+
+  /*HEADER END*/
+  /*INFO*/
+  .info .infos {
+    margin-top: 1em;
+    margin-bottom: 1em; }
+    .info .infos p {
+      padding-top: 1em;
+      font-size: 2em; }
+    .info .infos i {
+      color: #000;
+      font-size: .7em;
+      position: relative; }
+    .info .infos .left {
+      right: 27em;
+      top: 4.8em; }
+    .info .infos .right {
+      left: 25em;
+      top: -5em; }
+
+  /*INFO END*/
+  /*INFO-BALAGTAS*/
+  .info-balagtas i {
+    font-size: 6em;
+    padding-top: 1em; }
+  .info-balagtas p {
+    font-size: 2em; }
+
+  /*INFO-BALAGTAS END*/
+  /*CAROUSEL FRANCISCO BALTAZAR MUSEUM AND FESITVAL*/
+  .carousel .carousel-caption h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em; }
+  .carousel .carousel-caption p {
+    font-size: 1.5em;
+    font-family: antic;
+    margin-bottom: 1em; }
+  .carousel .carousel-caption .btn-default {
+    background: transparent;
+    font-size: 1em;
+    margin-bottom: 1em; }
+  .carousel .carousel-caption a {
+    font-family: poiret;
+    color: #fff;
+    text-decoration: none; }
+  .carousel .carousel-caption .festival {
+    background: transparent;
+    font-size: 2em;
+    padding-bottom: 0; }
+
+  /*CAROUSEL FRANCISCO BALTAZAR MUSEUM AND FESITVAL END*/
+  /*LOCALPRODUCT*/
+  .localproduct .localproducts {
+    margin-bottom: 2em;
+	margin-top: 2em;	}
+    .localproduct .localproducts img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width: 100%;
+      height: auto; }
+    .localproduct .localproducts h5 {
+      font-size: 1em; }
+    .localproduct .localproducts .localprice {
+      margin-left: 0;
+      width: 100%;
+      height: 3em; }
+      .localproduct .localproducts .localprice .text-right {
+        position: inherit;
+        padding-right: 10px;
+        margin-top: -1.9em; }
+
+  /*LOCALPRODUCT END*/
+  /*ACCOMODATION*/
+  .accomodation h1 {
+    font-size: 2em;
+    margin-top: 3em; }
+  .accomodation .accomodations {
+    margin-top: 5em; }
+    .accomodation .accomodations p {
+      font-size: 1em; }
+    .accomodation .accomodations h2 {
+      font-size: 1.5em;
+      padding-top: 0; }
+    .accomodation .accomodations i {
+      padding-top: 1em;
+      font-size: 1.3em;
+      position: absolute; }
+  .accomodation .accomodate {
+    margin-bottom: 10em; }
+    .accomodation .accomodate .prev,
+    .accomodation .accomodate .next {
+      position: absolute;
+      margin-top: 0; }
+    .accomodation .accomodate .next {
+      margin-left: 10em; }
+    .accomodation .accomodate .prev {
+      margin-left: 8em; }
+
+  /*ACCOMODATION END*/ }
+/*MOBILE LANDSCAPE END*/
+/*TABLET*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  /*NAVIGATION*/
+  /*NAVBAR-TRANSPARENT*/
+  .navbar-transparent li > a {
+    font-size: .7em; }
+
+  /*NAVBAR-TRANSPARENT END*/
+  /*NAVBAR-DEFAULT*/
+  .navbar-default .navbar-nav > li > a {
+    font-size: .7em;
+    color: #fff; }
+
+  /*NAVBAR-DEFAULT END*/
+  /*NAVIGATION END*/
+  .header {
+    width: 100%;
+    height: auto; }
+    .header h1 {
+      font-size: 4em;
+      margin: 0;
+      padding-top: 2em; }
+    .header p {
+      font-family: arima;
+      font-size: 2em;
+      padding-top: 1.5em; }
+
+  /*HEADER END*/
+  /*INFO*/
+  .info .infos {
+    margin-top: 5em;
+    margin-bottom: 5em; }
+    .info .infos p {
+      padding-top: 3em;
+      font-size: 1em; }
+    .info .infos i {
+      font-size: .4em; }
+    .info .infos .left {
+      right: 24em;
+      top: 10em; }
+    .info .infos .right {
+      left: 22em;
+      top: -6em; }
+
+  /*INFO END*/
+  /*INFO-BALAGTAS*/
+  .info-balagtas i {
+    font-size: 6em;
+    padding-top: 1em; }
+  .info-balagtas p {
+    font-size: 2em; }
+
+  /*INFO-BALAGTAS END*/
+  /*CAROUSEL FRANCISCO BALTAZAR MUSEUM AND FESITVAL*/
+  .carousel .carousel-caption h1 {
+    font-size: 2.6em;
+    margin-bottom: 1em; }
+  .carousel .carousel-caption p {
+    font-size: 1.5em;
+    font-family: antic;
+    margin-bottom: 1em; }
+  .carousel .carousel-caption .btn-default {
+    background: transparent;
+    font-size: 2em;
+    margin-bottom: 1em; }
+  .carousel .carousel-caption a {
+    font-family: poiret;
+    color: #fff;
+    text-decoration: none; }
+  .carousel .carousel-caption .festival {
+    background: transparent;
+    font-size: 8em;
+    padding-bottom: 0; }
+
+  /*CAROUSEL FRANCISCO BALTAZAR MUSEUM AND FESITVAL END*/
+  /*LOCALPRODUCT*/
+  .localproduct .localproducts {
+	margin-top: 4em;
+    margin-bottom: 4em; }
+    .localproduct .localproducts img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width: 100%;
+      height: auto; }
+    .localproduct .localproducts h5 {
+      font-size: 1em; }
+    .localproduct .localproducts .localprice {
+      margin-left: 0;
+      width: 100%;
+      height: 3em; }
+      .localproduct .localproducts .localprice .text-right {
+        position: inherit;
+        padding-right: 10px;
+        margin-top: -1.9em; }
+
+  /*LOCALPRODUCT END*/
+  /*ACCOMODATION*/
+  .accomodation .accomodate {
+    margin-bottom: 10em; }
+    .accomodation .accomodate .prev,
+    .accomodation .accomodate .next {
+      position: absolute;
+      margin-top: 1em; }
+    .accomodation .accomodate .next {
+      margin-left: 12em; }
+    .accomodation .accomodate .prev {
+      margin-left: 10em; }
+
+  /*ACCOMODATION END*/ }
+/*TABLET END*/
+
+/*# sourceMappingURL=balagtas.css.map */
